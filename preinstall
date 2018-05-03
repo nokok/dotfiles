@@ -1,0 +1,13 @@
+vim
+git
+curl
+default-jdk
+sudo
+git
+vim
+default-jdk
+default-jre
+ca-certificates
+ca-certificates-java
+gnupg
+apt-transport-https
