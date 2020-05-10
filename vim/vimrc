@@ -1,0 +1,14 @@
+set number
+set nowrap
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set autoindent
+set smartindent
+
+set directory=~/.vimfiles/swaps
+set backupdir=~/.vimfiles/backups
+set viminfo+=n~/.vimfiles/viminfo
+set undodir=~/.vimfiles/undodir
+

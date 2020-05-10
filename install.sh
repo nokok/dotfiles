@@ -2,10 +2,10 @@
 
 DOTFILE_DIR=~/dotfiles
 
-apt update
-apt upgrade -y
-apt install -y `cat $DOTFILE_DIR/preinstall`
-apt purge -y nano
-touch $DOTFILE_DIR/vimfiles/viminfo
+mkdir -p ~/{.config,.vimfiles}
+mkdir -p ~/.vimfiles/{swaps,backups,undodir}
 
-echo "Run LANG=C xdg-user-dirs-gtk-update"
+ln -fs $DOTFILE_DIR/git/gitconfig ~/.gitconfig
+ln -fs $DOTFILE_DIR/fish/config.fish ~/.config/fish/config.fish
+ln -fs $DOTFILE_DIR/vim/vimrc ~/.vimrc
+ln -fs ~/dotfiles/karabiner/karabiner.json ~/.config/karabiner/karabiner.json

@@ -1,0 +1,12 @@
+[user]
+	name = Noriyuki Kazusawa
+	email = nokok.kz@gmail.com
+[push]
+	default = current
+[core]
+	quotepath = false
+	editor = vim
+	ignorecase = false
+	excludesfile = /Users/noko/.config/git/global_ignore
+[color]
+	ui = true
